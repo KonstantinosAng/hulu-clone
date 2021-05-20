@@ -1,6 +1,6 @@
 # Hulu Clone
 
-A Hulu clone using [Next JS](https://nextjs.org) & [Tailwind CSS](https://tailwindcss.com). Inspired by [this tutorial](https://www.youtube.com/watch?v=MqDlsjc8GLo&t=2151s)
+A Hulu clone using [Next JS](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com) & [Heroicons](https://heroicons.com) for the front-end and [TMDB](https://www.themoviedb.org) API for the data. Inspired by [this tutorial](https://www.youtube.com/watch?v=MqDlsjc8GLo&t=2151s)
 
 ## Requirements
 
