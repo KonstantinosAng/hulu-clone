@@ -1,1 +1,35 @@
 .vscode
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+hulu/node_modules
+hulu/.pnp
+hulu/.pnp.js
+
+# testing
+hulu/coverage
+
+# next.js
+hulu/.next/
+hulu/out/
+
+# production
+hulu/build
+
+# misc
+hulu/.DS_Store
+hulu/*.pem
+
+# debug
+hulu/npm-debug.log*
+hulu/yarn-debug.log*
+hulu/yarn-error.log*
+
+# local env files
+hulu/.env.local
+hulu/.env.development.local
+hulu/.env.test.local
+hulu/.env.production.local
+
+# vercel
+hulu/.vercel
