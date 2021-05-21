@@ -15,6 +15,7 @@ function Header() {
       </div>
       <Image 
       className="object-contain"
+      // src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Hulu_logo_2017.svg/1200px-Hulu_logo_2017.svg.png"
       src="/../public/logo.png"
       width={200}
       height={100}
