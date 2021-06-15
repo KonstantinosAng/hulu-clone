@@ -13,7 +13,7 @@ NEXT_APP_TMDB_API_KEY=
 ```
 
 
-## Requirements
+## Installation
 
 Assuming you have [npm](shttps://www.npmjs.com) or [yarn](https://www.yarnpkg.com) installed, clone the repo and run the following code:
 
