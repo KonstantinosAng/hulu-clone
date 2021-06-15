@@ -4,6 +4,17 @@ A Hulu clone using [Next JS](https://nextjs.org), [Tailwind CSS](https://tailwin
 
 ## Requirements
 
+Inside the repo there is a [.env.example file](./hulu/.env.example). Rename it to .env.local and fill the values with your own api keys.
+
+For the image data you will need a [TMDB API](https://www.themoviedb.org) KEY.
+
+```javascript
+NEXT_APP_TMDB_API_KEY=
+```
+
+
+## Requirements
+
 Assuming you have [npm](shttps://www.npmjs.com) or [yarn](https://www.yarnpkg.com) installed, clone the repo and run the following code:
 
 ```
