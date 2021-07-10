@@ -1,8 +1,12 @@
-import Image from 'next/image';
+import Image from "next/image";
 import HeaderItem from './HeaderItem';
 import { HomeIcon, BadgeCheckIcon, CollectionIcon, LightningBoltIcon, SearchIcon, UserIcon } from '@heroicons/react/outline';
 
 function Header() {
+  const myLoader = () => {
+    return "https://logodownload.org/wp-content/uploads/2019/09/hulu-logo-1.png"
+  }
+
   return (
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
       <div className="flex flex-grow justify-evenly max-w-2xl">
@@ -13,12 +17,13 @@ function Header() {
         <HeaderItem title='SEARCH' Icon={SearchIcon}/>
         <HeaderItem title='ACCOUNT' Icon={UserIcon}/>
       </div>
-      <Image 
-      className="object-contain"
-      // src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Hulu_logo_2017.svg/1200px-Hulu_logo_2017.svg.png"
-      src="/../public/logo.png"
-      width={200}
-      height={100}
+      <Image
+        loader={myLoader}
+        className="object-contain"
+        src="https://logodownload.org/wp-content/uploads/2019/09/hulu-logo-1.png"
+        width={200}
+        height={100}
+        alt="Hulu logo"
       />
       
     </header>
