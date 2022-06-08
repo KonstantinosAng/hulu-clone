@@ -1,0 +1,15 @@
+version: "2.2"
+services:
+  hulu:
+    # network_mode: "host"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hulu
+    container_name: hulu
+    restart: always
+    ports:
+      - 3000:3000
+    # environment:
+    # env_file:
+    #   - ./.env
