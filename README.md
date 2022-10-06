@@ -3,7 +3,7 @@
 A Hulu clone using [Next JS](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com) & [Heroicons](https://heroicons.com) for the front-end and [TMDB](https://www.themoviedb.org) API for the data. Inspired by [this tutorial](https://www.youtube.com/watch?v=MqDlsjc8GLo&t=2151s).
 
 <div align="center">
-  <h1><a href="http://kangelopoulos.ddns.net:3000"> DEMO </a></h1>
+  <h1><a href="https://hulu.constantine.dev"> DEMO </a></h1>
 </div>
 
 ## Requirements
