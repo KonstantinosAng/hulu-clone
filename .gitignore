@@ -2,34 +2,34 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-hulu/node_modules
-hulu/.pnp
-hulu/.pnp.js
+node_modules
+.pnp
+.pnp.js
 
 # testing
-hulu/coverage
+coverage
 
 # next.js
-hulu/.next/
-hulu/out/
+.next/
+out/
 
 # production
-hulu/build
+build
 
 # misc
-hulu/.DS_Store
-hulu/*.pem
+.DS_Store
+*.pem
 
 # debug
-hulu/npm-debug.log*
-hulu/yarn-debug.log*
-hulu/yarn-error.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # local env files
-hulu/.env.local
-hulu/.env.development.local
-hulu/.env.test.local
-hulu/.env.production.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
-hulu/.vercel
+.vercel
