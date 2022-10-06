@@ -1,5 +1,5 @@
 module.exports = {
-  basePath: "/hulu",
+  basePath: "",
   images: {
     domains: ["image.tmdb.org", "upload.wikimedia.org"],
     path: "",
